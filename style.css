@@ -130,7 +130,8 @@ nav img {
 
 .buttons input {
     /* margin-top: 20px; */
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    border: 1px solid rgb(99, 99, 99);
     height: 48px;
     width: 300px;
     background-color: rgba(15, 15, 15, 0.7);
@@ -153,11 +154,6 @@ input::placeholder {
     font-size: 20px;
     color: white;
     cursor: pointer;
-    /* position: relative;
-    z-index: 10; */
-    /* display: inline-flex;
-    justify-content: center;
-    align-items: center; */
 }
 
 .Get-Started:hover {
@@ -295,6 +291,8 @@ input::placeholder {
 .email-sec div:first-child {
     margin-top: 40px;
     font-size: 22px;
+    color: white;
+    margin-left: 25px;
 }
 
 footer {
@@ -382,7 +380,7 @@ footer div {
 
     .buttons input,
     .Get-Started {
-        width: 100%;
+        width: 90%;
     }
 
     .container {
